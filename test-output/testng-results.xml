@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T19:24:51 IST" name="Default suite" finished-at="2023-08-10T19:24:51 IST" duration-ms="119">
+    <groups>
+    </groups>
+    <test started-at="2023-08-10T19:24:51 IST" name="Default test" finished-at="2023-08-10T19:24:51 IST" duration-ms="119">
+      <class name="com.Practice.DataProviderTest">
+        <test-method signature="getDat(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Practice.DataProviderTest@13e39c73]" started-at="2023-08-10T19:24:51 IST" name="getDat" data-provider="data3" finished-at="2023-08-10T19:24:51 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lamborghini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mustang]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Corvette]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TATA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDat -->
+        <test-method signature="getDat(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Practice.DataProviderTest@13e39c73]" started-at="2023-08-10T19:24:51 IST" name="getDat" data-provider="data3" finished-at="2023-08-10T19:24:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ducati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyosung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Benelli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aprilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDat -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Practice.DataProviderTest@13e39c73]" started-at="2023-08-10T19:24:51 IST" name="getData" data-provider="data" finished-at="2023-08-10T19:24:51 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Practice.DataProviderTest@13e39c73]" started-at="2023-08-10T19:24:51 IST" name="getData" data-provider="data" finished-at="2023-08-10T19:24:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mangaluru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Madikeri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[350]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- com.Practice.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

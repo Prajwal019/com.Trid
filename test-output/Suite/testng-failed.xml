@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Trid.GenericUtility.ITransformImpClass"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Project_TestNG.AddAccountTest">
+        <methods>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="addUserAccountTest"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_AM"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- Project_TestNG.AddAccountTest -->
+      <class name="Project_TestNG.ViewASupplierTest">
+        <methods>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="ViewASupplier"/>
+          <include name="config_AM"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- Project_TestNG.ViewASupplierTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
